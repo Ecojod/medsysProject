@@ -1,7 +1,9 @@
 import React from 'react'
 import Footer from './Footer'
+import { TabTitle } from './Utillity'
 
-export default function Contact() {
+export default function Contact(props) {
+    TabTitle("Contact Us - medsysconsultancy.com");
     return (
         <>
             <section className="header-bottom">
@@ -94,20 +96,22 @@ export default function Contact() {
                         <div className="google-review">
                             <div className="google-review-inner">
                                 <div className="inner-left">
-                                <h2>Find Us Here:</h2>
-                                <div className="left">
-                                    <i className="lni lni-map-marker"></i>
-                                </div>
+                                    <h2>Find Us Here:</h2>
+                                    <a href="">
+                                        <div className="left">
+                                            <img src="/assets/img/googleReviews/1.svg" alt="" />
+                                        </div>
+                                    </a>
                                 </div>
                                 <div className="inner-right">
-                                <h2 style={{marginLeft:"3px"}}>Review Us Now:</h2>
-                                <a href="https://g.page/r/CcL_UBb54VReEBI/review">
-                                    <div className="right">
-                                        <img src="/assets/img/google-icon.png" alt="" />
-                                        <p>If you think we did great, <br />please click here to leave a <br />Google review for us!
-                                        </p>
-                                    </div>
-                                </a>
+                                    <h2 style={{ marginLeft: "3px" }}>Review Us Now:</h2>
+                                    <a href="https://g.page/r/CcL_UBb54VReEBI/review">
+                                        <div className="right">
+                                            <img src="/assets/img/google-icon.png" alt="" />
+                                            <p>If you think we did great, <br />please click here to leave a <br />Google review for us!
+                                            </p>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -169,7 +173,7 @@ export default function Contact() {
                     </button>
                 </div>
             </section>
-            <Footer/>
+            <Footer />
         </>
     )
 }

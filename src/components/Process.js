@@ -1,7 +1,9 @@
 import React from 'react'
 import Footer from './Footer'
+import { TabTitle } from './Utillity';
 
 export default function Process() {
+    TabTitle("Our Process - medsysconsultancy.com");
     return (
         <>
             {/* <!-- =====================Header-below======================= --> */}

@@ -1,6 +1,7 @@
 import React from 'react'
-
+import { TabTitle } from './Utillity';
 export default function RefundPolicy() {
+    TabTitle("Refund policy - medsysconsultancy.com");
     return (
         <>
             <section className='refund-policy'>

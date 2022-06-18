@@ -6,7 +6,8 @@ import Home from "./components/Home";
 import Process from "./components/Process";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import RefundPolicy from "./components/RefundPolicy";
-import Terms_Conditions from "./components/Terms_Conditions";
+import TermsConditions from "./components/TermsConditions";
+import { TabTitle } from "./components/Utillity";
 import {
   BrowserRouter,
   Routes,
@@ -14,6 +15,7 @@ import {
 } from "react-router-dom";
 
 function App() {
+  TabTitle("Home - medsysconsultancy.com");
   return (
     <>
       <BrowserRouter>
@@ -24,7 +26,7 @@ function App() {
           <Route path="/process" element={<Process />}></Route>
           <Route path="/privacypolicy" element={<PrivacyPolicy />}></Route>
           <Route path="/refundpolicy" element={<RefundPolicy />}></Route>
-          <Route path="/terms&conditions" element={<Terms_Conditions />}></Route>
+          <Route path="/terms&conditions" element={<TermsConditions />}></Route>
         </Routes>
         <footer />
       </BrowserRouter>

@@ -1,20 +1,21 @@
 import React from 'react'
-
-export default function Terms_Conditions() {
+import { TabTitle } from './Utillity';
+export default function TermsConditions() {
+    TabTitle("Terms&Conditions - medsysconsultancy.com");
     return (
         <>
-            <img src="/assets//img/t&c.png" alt="" style={{width:'100%'}} />
+            <img src="/assets//img/t&c.png" alt="" style={{width:"100%"}} />
             <h1 className="section-heading">Terms & Conditions</h1>
             <div className="container policies">
                 <h2>ABOUT US</h2>
-                <h6>Welcome to <a href="#">www.medsysconsultancy.com</a> </h6>
+                <h6>Welcome to <a href="/">www.medsysconsultancy.com</a> </h6>
                 <p>Medsys is an online business registration portal for newbie startups, MSME's & NGOs in India. Medsys
                     renders a wide range of services in the area of company incorporation, NGO Registration, 12A 80G
                     Registration, NGO Advocacy, GST registration, FSSAI registration, obtaining import-export code,
                     preparing a business plan, helping in protecting brand/intellectual property including trademark,
                     copyright, and patent, securing iso certification and do legal & financial consultancy for MSMEs
                     businesses.</p>
-                <p className="site-detail"><a href="#">www.medsysconsultancy.com</a> “website” is owned and maintained by Medsys
+                <p className="site-detail"><a href="/">www.medsysconsultancy.com</a> “website” is owned and maintained by Medsys
                     Consultancy.</p>
                 <h2>AGREEMENT</h2>
                 <p>Please read the terms and conditions set out below carefully before ordering any product or service from
@@ -25,48 +26,48 @@ export default function Terms_Conditions() {
                 <p>In terms of the Information Technology Act, 2000, this document is an electronic record. Being generated
                     by a computer system it does not require any physical or digital signatures.
                 </p>
-                <p>The domain name <a href="#">www.medsysconsultancy.com</a> (hereinafter referred to as “the Website”) is
+                <p>The domain name <a href="/">www.medsysconsultancy.com</a> (hereinafter referred to as “the Website”) is
                     owned by Medsys Consultancy. </p>
                 <h2>USER OBLIGATIONS
                 </h2>
                 <p>-By visiting our website and accessing the information, resources, services, products, and tools we
                     provide, you understand and agree to accept and adhere to the terms and conditions as stated in this
                     policy, along with the terms and conditions as stated in our Privacy Policy.</p>
-                <p>By signup or signing in <a href="#">a mobile application</a>, you are agreeing to additional terms of
-                    use with regard to our product i.e. business chat platform. You are advised to read additional terms of
-                    use carefully before signing in to the application on your mobile devices.</p>
-                <p> -You further agree there is no intention to solicit any engagements from you which are statutorily
+                <p>By signup or signing in <a href="/">a mobile application</a>, you are agreeing to additional terms of
+                    use with regard to our product i.e. business chat platform. You are advised to read additional terms of
+                    use carefully before signing in to the application on your mobile devices.</p>
+                <p> -You further agree there is no intention to solicit any engagements from you which are statutorily
                     mandated to be performed by relevant professionals like practicing CA's, CS, Lawyers, etc. and neither
                     will www.medsysconsultancy.com be implied to be propagating any non-compliance via write-ups, blog
                     posts, articles, notification, comments, etc</p>
                 <p>
-                    -You agreed that we will use our company email id or mobile number or both in various government
+                    -You agreed that we will use our company email id or mobile number or both in various government
                     applications in order to receive OTP so that we can serve you and deliver the requisite service
-                    promptly. The rationale behind that our team requires a unique token/OTP which carries self-life of a
-                    shorter time in order to access the application and most of the time you are not available to provide
-                    OTP/tokens to us on an immediate basis. Your kind cooperation in this regard is highly appreciated.
+                    promptly. The rationale behind that our team requires a unique token/OTP which carries self-life of a
+                    shorter time in order to access the application and most of the time you are not available to provide
+                    OTP/tokens to us on an immediate basis. Your kind cooperation in this regard is highly appreciated.
                 </p>
-                <p> -We reserve the right to change these terms & conditions from time to time without notice. You
+                <p> -We reserve the right to change these terms & conditions from time to time without notice. You
                     acknowledge and agree that it is your responsibility to review these terms & conditions periodically to
                     familiarize yourself with any modifications. Your continued use of this site after such modifications
                     will constitute acknowledgment and agreement of the modified terms and conditions.
                 </p>
-                <p> -In order to avail our professional & other services, you may be required to provide certain information
+                <p> -In order to avail our professional & other services, you may be required to provide certain information
                     about yourself (such as identification proof, address proof, email, phone number, contact details,
                     etc.). You agree that any information you provide will always be accurate, correct, and up to date.
                 </p>
-                <p> -Accessing (or attempting to access) any of our Resources by any means other than through the means we
+                <p> -Accessing (or attempting to access) any of our Resources by any means other than through the means we
                     provide, is strictly prohibited. You specifically agree not to access (or attempt to access) any of our
                     Resources through any automated, unethical or unconventional means.
                 </p>
-                <p> -Engaging in any activity that disrupts or interferes with our Resources, including the servers and/or
+                <p> -Engaging in any activity that disrupts or interferes with our Resources, including the servers and/or
                     networks to which our Resources are located or connected, is strictly prohibited.
                 </p>
                 <p>-By using this site, you represent that you are at least the age of majority in your state or province of
                     residence, or that you are the age of majority in your state or province of residence and you have given
                     us your consent to allow any of your minor dependents to use this site.
                 </p>
-                <p> -Medsys grants you permission to view this site and to print individual pages from this site for your
+                <p> -Medsys grants you permission to view this site and to print individual pages from this site for your
                     own personal, non-commercial use. You may not modify, copy (except as set forth in the preceding
                     sentence), distribute, transmit, display, perform, reproduce, publish, license, create derivative works
                     from, transfer or sell any information, material, software, products or services from this site, without
@@ -83,26 +84,26 @@ export default function Terms_Conditions() {
                     whether investment, legal, taxation or otherwise. Medsys disclaims all liability for damages caused by
                     the use of the content on the site.
                 </p>
-                <p>-All the offers and discounts communicated to you over email or telephone shall be valid to date as
+                <p>-All the offers and discounts communicated to you over email or telephone shall be valid to date as
                     specified with the offers. In case the offers/discounts validity period is not specified then offers &
                     discounts communicated to you shall be valid for a maximum of 7 days from the date on which the offer or
                     discount is communicated to you. We are not liable to extend the benefits of offers beyond their
                     validity period.
                 </p>
-                <p>-All responsibility and liability for any damages caused by downloading of any data are disclaimed.
+                <p>-All responsibility and liability for any damages caused by downloading of any data are disclaimed.
                 </p>
                 <p>-You agree that in case of any deficiency founds in our committed services Medsys shall be liable only to
-                    the extent of the amount paid by you to Medsys. No other claims shall be entertained.
+                    the extent of the amount paid by you to Medsys. No other claims shall be entertained.
                 </p>
                 <p>-You agree that we, including our employees, are free to change your dashboard password without prior
-                    permission to ensure a better experience and quality service.
+                    permission to ensure a better experience and quality service.
                 </p>
                 <p>-You are solely responsible for any consequences, losses, or damages that we may directly or indirectly
                     incur or suffer due to any unauthorized activities conducted by you, as explained above, and may incur
                     criminal or civil liability.
                 </p>
                 <p>-You agree neither Medsys nor any of its employees or consultant shall be liable for any loss, expense,
-                    or damage incurred due to "any act of" or "any act occurs to" any affiliate vendors, agents, or any
+                    or damage incurred due to "any act of" or "any act occurs to" any affiliate vendors, agents, or any
                     other 3rd party who are associated with Medsys whether directly or indirectly.
                 </p>
                 <p>-You agree that you will not upload, post, share, or otherwise distribute any content on our web public
@@ -130,7 +131,7 @@ export default function Terms_Conditions() {
                     ANOTHER, INCLUDING ANY INTELLECTUAL PROPERTY RIGHTS.
                 </p>
                 <h2>GUARANTEE</h2>
-                <p>UNLESS OTHERWISE EXPRESSED, <a href="#">www.medsysconsultancy.com </a> EXPRESSLY DISCLAIMS ALL WARRANTIES
+                <p>UNLESS OTHERWISE EXPRESSED, <a href="/">www.medsysconsultancy.com </a> EXPRESSLY DISCLAIMS ALL WARRANTIES
                     AND CONDITIONS OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO THE IMPLIED
                     WARRANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.
                 </p>
@@ -150,7 +151,7 @@ export default function Terms_Conditions() {
                     will look into it. We are under no obligation to remove such articles and the final decision lies with
                     us. <br /> <br />
                 </p>
-                <p>2.We take utmost care to ensure that data provided at our website is true and accurate. Sometimes, system
+                <p>2.We take utmost care to ensure that data provided at our website is true and accurate. Sometimes, system
                     errors creep in and data generated by other Users may be false. You agree that we are not responsible
                     for any loss incurred due to such inaccuracy in data.
                 </p>
@@ -177,7 +178,7 @@ export default function Terms_Conditions() {
                 <p>The content that you post will become Our property and You grant Us the worldwide, perpetual and
                     transferable rights in such Content. We shall be entitled to, consistent with Our Privacy Policy as
                     adopted in accordance with applicable law, use the Content or any of its elements for any type of use
-                    forever, including but not limited to promotional and advertising purposes and in any media whether now
+                    forever, including but not limited to promotional and advertising purposes and in any media whether now
                     known or hereafter devised, including the creation of derivative works that may include the Content You
                     provide and are not entitled to any payment or other compensation for such use.
                 </p>
@@ -190,7 +191,7 @@ export default function Terms_Conditions() {
                 <h2>CONTACT US
                 </h2>
                 If you have any questions regarding the Agreement, the practices of Medsys Consultancy or any complaints
-                with the service, you can e-mail us at <a href="#">medsysconsultancy@gmail.com</a>
+                with the service, you can e-mail us at <a href="/">medsysconsultancy@gmail.com</a>
             </div>
         </>
     )

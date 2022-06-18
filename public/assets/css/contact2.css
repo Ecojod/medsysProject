@@ -285,14 +285,14 @@ section.map-below{
 
 
 .right .address .google-review .left{
-    height: 70px;
-    width: 76px;
+    /* height: 70px;
+    width: 76px; */
     text-align: center;
     align-items: center;
     border-radius: 10px;
     display: flex;
     justify-content: center;
-    background-color: #101081;
+    /* background-image: url('/public/assets/img/googleReviews/1.svg'); */
     margin-right: 1rem;
 }
 
@@ -304,7 +304,9 @@ section.map-below{
 .right .address .google-review .right img{
     background-color: white;
     padding: 4px 6px;
-    width: 74px;
+    width: 85px;
+    height: 84px;
+    object-fit: contain;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     border-top: 1px solid;
@@ -318,7 +320,7 @@ section.map-below{
     display: flex;
     background-color: #141485;
     font-size: 15px;
-    padding: 8px;
+    padding: 8px 5px;
     letter-spacing: 1px;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
@@ -326,7 +328,7 @@ section.map-below{
     position: relative;
 }
 
-/* .right .address .google-review .right p::before{
+.right .address .google-review .right p::before{
     content: "Review Now";
     color: grey;
     position: absolute;
@@ -335,17 +337,11 @@ section.map-below{
     opacity: 0.2;
     font-weight: bold;
     display: none;
-} */
+}
 
 .right .address .google-review .google-review-inner a:hover p{
     background-color:white;
     color: #141485;
-    /* border-top: 1px solid; */
-    border-bottom: 1px solid;
-}
-
-.right .address .google-review .google-review-inner:hover p::before{
-    display: block;
 }
 
 section.contact .contact-mid .left img{
