@@ -1,0 +1,314 @@
+
+
+body{
+    background-color: #f9f5f5;
+}
+.container{
+    max-width: 1033px;
+}
+
+.header-below .inner{
+    /* padding: 7rem 0; */
+    height: 400px;
+    width: 100%;
+    background-image: url('/assets/img/Process\ Header\ Image.png');
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-below .inner h1{
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 1rem;
+    margin-left: 23rem;
+}
+
+.header-below .inner h6{
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+    margin-left: 25rem;
+}
+
+/* ===================Our work==================== */
+
+
+section.ourwork .wrapper-inner{
+    position: relative;
+}
+
+section.ourwork .wrapper-inner::after{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 2px;
+    background-color: rgb(185 179 179 / 32%);
+    top: 2px;
+    right: 505px;
+}
+section.ourwork .wrapper-inner .item{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+    position: relative;
+}
+
+section.ourwork h1{
+    position: relative;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    margin: 3rem 0;
+}
+
+section.ourwork h1::after{
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 3px;
+    top: 55px;
+    margin-top: .6rem;
+    left: 484px;
+    background-color: #6c84f8;
+}
+section.ourwork .wrapper-inner .item .content{
+    width: 461px;
+    height: 314px;
+    display: flex;
+    padding: 45px 25px;
+    position: relative;
+    transition: all .5s ease;
+    border-radius: 10px;
+    box-shadow: 1px 1px 51px #3a3a6121;
+}
+
+.timeline-pin{
+    position: absolute;
+    top: 50%;
+    border-color: white white transparent transparent;
+    left: 440px;
+    -webkit-transform: translateY(-50%) rotate(45deg);
+    transform: translateY(-50%) rotate(45deg);
+    width: 40px;
+    height: 40px;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    border-style: solid;
+    border-width: 20px;
+    z-index: -1;
+}
+.text{
+    position: relative;
+}
+.timeline2-pin{
+    position: absolute;
+    top: 50%;
+    border-color:  transparent transparent white white;
+    right: 440px;
+    -webkit-transform: translateY(-50%) rotate(45deg);
+    transform: translateY(-50%) rotate(45deg);
+    width: 40px;
+    height: 40px;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    border-style: solid;
+    border-width: 20px;
+    z-index: -1;
+}
+section.ourwork .wrapper-inner .item .content h3{
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+}
+.text{
+    padding: 7px 0;
+}
+
+section.ourwork .wrapper-inner .item .content .icon{
+    padding: 1rem;
+}
+
+section.ourwork .wrapper-inner .item .content p{
+    color: #3f4858;
+    font-size: 19px;
+    padding:2px;
+}
+
+section.ourwork .wrapper-inner .item .content div i{
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section.ourwork .wrapper-inner div:nth-child(1):hover .content{
+    background-color: rgb(101, 230, 101);
+}
+section.ourwork .wrapper-inner div:nth-child(2):hover .content{
+    background-color: #9460ff;
+}
+section.ourwork .wrapper-inner div:nth-child(3):hover .content{
+    background-color: rgb(236, 138, 154);
+}
+section.ourwork .wrapper-inner div:nth-child(4):hover .content{
+    background-color: #a5e645;
+}
+section.ourwork .wrapper-inner div:nth-child(5):hover .content{
+    background-color: rgb(154, 77, 226);
+}
+
+/* ==================Arrow-Hover=================  */
+section.ourwork .wrapper-inner div:nth-child(1):hover .timeline-pin{
+    border-color: rgb(101, 230, 101) rgb(101, 230, 101) transparent transparent;
+
+}
+section.ourwork .wrapper-inner div:nth-child(2):hover .timeline2-pin{
+    border-color:  transparent transparent #9460ff #9460ff;
+    ; 
+}
+section.ourwork .wrapper-inner div:nth-child(3):hover .timeline-pin{
+    border-color: rgb(236, 138, 154) rgb(236, 138, 154) transparent transparent;
+}
+section.ourwork .wrapper-inner div:nth-child(4):hover .timeline2-pin{
+    border-color:  transparent transparent #a5e645 #a5e645;
+}
+section.ourwork .wrapper-inner div:nth-child(5):hover .timeline-pin{
+    border-color: rgb(154, 77, 226) rgb(154, 77, 226) transparent transparent;
+}
+
+section.ourwork .wrapper-inner div:hover .content .text h3{
+    color: white;
+}
+section.ourwork .wrapper-inner div:hover .content .text p{
+    color: white;
+}
+section.ourwork .wrapper-inner div:hover .content i{
+    background-color: white;
+    color: black;
+}
+
+.odd{
+    margin-top: 161px;
+    margin-right: 451px;
+}
+.even{
+    margin-top: 147px;
+    margin-left: 451px;
+}
+
+.mid-dot{
+    width: 14px;
+    height: 14px;
+    border: 2px solid #6e6eff;
+    border-radius: 50%;
+    background-color: white;
+    top: 170px;
+    left: 520px;
+    position: absolute;
+    z-index: 100;
+}
+.dot-even{
+    width: 14px;
+    height: 14px;
+    border: 2px solid #6e6eff;
+    border-radius: 50%;
+    background-color: white;
+    top: 151px;
+    left: 520px;
+    position: absolute;
+    z-index: 100;
+}
+
+.item span{
+    width: 3px;
+    height: 3px;
+    display: none;
+    border: 2px solid #2b2be2;
+    border-radius: 50%;
+    background-color: white;
+    color:#2b2be2 ;
+    top: 175px;
+    left: 525px;
+    position: absolute;
+    z-index: 100;
+    transition: all .5s ease;
+}
+
+.item-even span{
+    width: 3px;
+    height: 3px;
+    color:#2b2be2 ;
+    display: none;
+    border: 2px solid #2b2be2;
+    border-radius: 50%;
+    background-color: white;
+    top: 156px;
+    left: 525px;
+    position: absolute;
+    z-index: 100;
+}
+
+section.ourwork .wrapper-inner div:hover span{
+    display: block;
+}
+
+/* =====================New product================== */
+section.new-product{
+    padding: 8rem 0;
+    margin-bottom: 2rem;
+    width: 100%;
+    background-image: url('/assets/img/Process\ Page\ Second\ Image.png');
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section.new-product .inner h6{
+    color: rgb(240, 217, 15);
+    font-size: 15px;
+    font-weight:bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+section.new-product .inner h1{
+    font-size: 3.3rem;
+    color: white;
+    margin: 10px;
+}
+
+section.new-product .inner p{
+    font-size: 17px;
+    color: white;
+}
+
+section.new-product .inner a button{
+    height: 32px;
+    width: 107px;
+    font-size: 13px;
+    margin-top: 1rem;
+    color: #504c4c;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    border-radius: 4px;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+section.new-product .inner a button:hover{
+    background-color:brown;
+    color: white;
+}
+
+
+section.profile{
+    max-width: 1124px;
+}
