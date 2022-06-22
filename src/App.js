@@ -21,14 +21,13 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />}></Route>
+          {/* <Route path="/" element={<Home />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/process" element={<Process />}></Route>
           <Route path="/privacypolicy" element={<PrivacyPolicy />}></Route>
           <Route path="/refundpolicy" element={<RefundPolicy />}></Route>
-          <Route path="/terms&conditions" element={<TermsConditions />}></Route>
+          <Route path="/terms&conditions" element={<TermsConditions />}></Route> */}
         </Routes>
-        <footer />
       </BrowserRouter>
 
     </>

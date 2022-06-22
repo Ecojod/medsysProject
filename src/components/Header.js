@@ -10,15 +10,15 @@ export default function Header() {
                     <li><Link to="offers.html">Offers&nbsp;<img alt='medsys'
                         src="https://www.dutchuncleindia.com/theme/template/images/giphy.gif"
                         style={{ width: '15px' }} /></Link>&nbsp;</li>
-                    <li><Link to="https://www.facebook.com/medsysconsultancy/?ref=pages_you_manage" rel="noopener noreferrer" style={{color:'#560216'}}><i className="fa-brands fa-facebook-f"
+                    <li><Link to="https://www.facebook.com/medsysconsultancy/?ref=pages_you_manage" rel="noopener noreferrer" style={{ color: '#560216' }}><i className="fa-brands fa-facebook-f"
                         aria-hidden="true" style={{ color: '#fff', fontSize: '18px' }}></i>.</Link></li>
-                    <li><Link to="https://www.instagram.com/medsysconsultancy/" rel="noopener noreferrer" style={{color:'#560216'}}><i className="fa-brands fa-instagram"
+                    <li><Link to="https://www.instagram.com/medsysconsultancy/" rel="noopener noreferrer" style={{ color: '#560216' }}><i className="fa-brands fa-instagram"
                         aria-hidden="true" style={{ color: '#fff', fontSize: '18px' }}></i>.</Link></li>
-                    <li><Link to="https://twitter.com/MedsysIndia?fbclid=IwAR2NBFx4fVus5BIiCoZjxsxmz11QMM9T6F1NJyNoATQNv-Uv1O0aSCp-Zxk" rel="noopener noreferrer" style={{color:'#560216'}}><i className="fa-brands fa-twitter" aria-hidden="true"
+                    <li><Link to="https://twitter.com/MedsysIndia?fbclid=IwAR2NBFx4fVus5BIiCoZjxsxmz11QMM9T6F1NJyNoATQNv-Uv1O0aSCp-Zxk" rel="noopener noreferrer" style={{ color: '#560216' }}><i className="fa-brands fa-twitter" aria-hidden="true"
                         style={{ fontSize: '18px', color: '#fff' }}></i>.</Link></li>
-                    <li><Link to="https://www.linkedin.com/company/30242565/admin/" rel="noopener noreferrer" style={{color:'#560216'}}><i className="fa-brands fa-linkedin-in"
+                    <li><Link to="https://www.linkedin.com/company/30242565/admin/" rel="noopener noreferrer" style={{ color: '#560216' }}><i className="fa-brands fa-linkedin-in"
                         aria-hidden="true" style={{ color: '#fff', fontSize: '18px' }}></i>.</Link></li>
-                    <li><Link to="/" rel="noopener noreferrer" style={{color:'#560216'}}><i className="fa-solid fa-envelope" aria-hidden="true"
+                    <li><Link to="/" rel="noopener noreferrer" style={{ color: '#560216' }}><i className="fa-solid fa-envelope" aria-hidden="true"
                         style={{ color: '#fff', fontSize: '18px' }}></i>.</Link>&nbsp;</li>
                     <li className="border1"><Link className="fa-fa-phone" to="tel:+918881069069"><i
                         className="lni lni-phone-set"></i>&nbsp;&nbsp;Call Now</Link></li>
@@ -409,23 +409,23 @@ export default function Header() {
                                 <li className="nav-link">
                                     <Link to="contact">Contact Us</Link>
                                 </li>
-
-                                <li className="search">
-                                    <div className="containersearch">
-                                        <input type="text" placeholder="Search" id='search'/>
+                                <li>
+                                <div className="login">
+                                        <Link to="/">
+                                            <i class="fa-solid fa-user-plus"></i>
+                                        </Link>
                                     </div>
                                 </li>
-                                {/* <li>
-                                    <div className="login"><Link to="/">
-                                        <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
-                                        <lord-icon src="https://cdn.lordicon.com/dqxvvqzi.json" trigger="click"
-                                            colors="outline:#121331,primary:#f4c89c,secondary:#4bb3fd" stroke="30"
-                                            state="hover-nodding" >
-                                        </lord-icon>
-                                    </Link>
-                                    </div>
-                                </li> */}
                             </ul>
+                            <div className='search-bton'>
+                                    <div className="search-box">
+                                        <input className="search-txt" type="search" name="" placeholder="Search" />
+                                        <Link className="search-btn" to="/">
+                                            <i className="fas fa-search" style={{ fontSize: " 20px" }}></i>
+                                        </Link>
+                                    </div>
+                                    
+                            </div>
                         </div>
 
                     </div>
