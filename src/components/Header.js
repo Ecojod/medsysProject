@@ -10,7 +10,7 @@ export default function Header() {
                     <li><Link to="offers.html">Offers&nbsp;<img alt='medsys'
                         src="https://www.dutchuncleindia.com/theme/template/images/giphy.gif"
                         style={{ width: '15px' }} /></Link>&nbsp;</li>
-                    <li><Link to="https://www.facebook.com/medsysconsultancy/?ref=pages_you_manage" rel="noopener noreferrer" style={{ color: '#560216' }}><i className="fa-brands fa-facebook-f"
+                    {/* <li><Link to="https://www.facebook.com/medsysconsultancy/?ref=pages_you_manage" rel="noopener noreferrer" style={{ color: '#560216' }}><i className="fa-brands fa-facebook-f"
                         aria-hidden="true" style={{ color: '#fff', fontSize: '18px' }}></i>.</Link></li>
                     <li><Link to="https://www.instagram.com/medsysconsultancy/" rel="noopener noreferrer" style={{ color: '#560216' }}><i className="fa-brands fa-instagram"
                         aria-hidden="true" style={{ color: '#fff', fontSize: '18px' }}></i>.</Link></li>
@@ -19,7 +19,7 @@ export default function Header() {
                     <li><Link to="https://www.linkedin.com/company/30242565/admin/" rel="noopener noreferrer" style={{ color: '#560216' }}><i className="fa-brands fa-linkedin-in"
                         aria-hidden="true" style={{ color: '#fff', fontSize: '18px' }}></i>.</Link></li>
                     <li><Link to="/" rel="noopener noreferrer" style={{ color: '#560216' }}><i className="fa-solid fa-envelope" aria-hidden="true"
-                        style={{ color: '#fff', fontSize: '18px' }}></i>.</Link>&nbsp;</li>
+                        style={{ color: '#fff', fontSize: '18px' }}></i>.</Link>&nbsp;</li> */}
                     <li className="border1"><Link className="fa-fa-phone" to="tel:+918881069069"><i
                         className="lni lni-phone-set"></i>&nbsp;&nbsp;Call Now</Link></li>
                     <li className="border1"><Link to="https://wa.me/+917020438881"><i className="fa-brands fa-whatsapp"
@@ -29,8 +29,6 @@ export default function Header() {
             {/* <!-- =================Header====================== --> */}
             <header id="header" className="header">
                 <div className="container">
-                    <input type="checkbox" name="" id="check" />
-
                     <div className="logo-container">
                         <img src="/assets/img/mainLogo.png" alt='medsys' />
                     </div>
