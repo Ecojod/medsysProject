@@ -1152,7 +1152,7 @@ section.contact .contact-mid .right div img {
 
 @media(max-width:1233px) {
     header{
-        top: 13px;
+        top: -3px;
     }
     section.work .wrapper {
         grid-template-columns: 1fr 1fr;
@@ -1513,5 +1513,288 @@ section.contact .contact-mid .right div img {
 @media(max-width:415px){
     .footer_menu:nth-child(1) h2::after{
         top: 70px;
+    }
+}
+
+
+
+/* Contact Us Media Query  */
+@media (max-width:1263px) {
+    section.contact .contact-social-links .inner {
+        margin-right: 10px;
+    }
+
+    section.form {
+        max-width: 95%;
+    }
+
+    .map .inner .left p {
+        width: 95%;
+        margin: auto;
+    }
+}
+
+@media (max-width:1185px) {
+    .map-below .right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .right .address .google-review .right p{
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+
+    .map-below .right .contact {
+        width: 95%;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .map-below .right .contact {
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width:1164px) {
+    section.contact .contact-social-links {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+    }
+
+    .address .inner {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+    }
+
+    .right .address .google-review .google-review-inner {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+    }
+
+    .google-review-inner .inner-left {
+        margin-right: 14rem;
+    }
+
+    section.contact .contact-social-links .inner {
+        width: 350px;
+        margin: 1rem 0;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+    }
+
+}
+
+@media (max-width:1055px) {
+    section.form .wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.form .wrapper .left {
+        width: 100%;
+    }
+
+    section.form .wrapper .left {
+        text-align: center;
+    }
+
+    section.form .wrapper .left h5 {
+        width: fit-content;
+        margin: auto;
+        font-size: 2rem;
+    }
+
+    section.form .wrapper .left p {
+        line-height: 1;
+        font-size: 32px;
+        width: fit-content;
+        margin: auto;
+    }
+
+    section.form .wrapper .left h1 {
+        margin: .8rem 0;
+    }
+
+    section.form .wrapper .left h5::before {
+        height: 40px;
+        width: 90px;
+    }
+
+    section.form .wrapper .left p:after {
+        left: 335px;
+    }
+
+    section.form .wrapper .left h6 {
+        font-size: 20px;
+    }
+
+    section.form .wrapper .left form label {
+        font-size: 20px;
+    }
+
+    section.form .wrapper .left form select {
+        margin: auto;
+    }
+
+    section.form .wrapper .left form button {
+        margin: auto;
+        margin-top: 2rem;
+    }
+
+    section.form .wrapper .left form input {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+
+    section.contact .contact-mid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width:975px) {
+    section.contact .contact-mid .right div {
+        padding: 2rem 0;
+    }
+    section.contact .contact-mid .right div{
+        padding: 1rem 0;
+    }
+}
+
+@media(max-width:885px) {
+    section.form .wrapper .left p {
+        font-size: 25px;
+    }
+
+    section.form .wrapper .left p:after {
+        left: 270px;
+    }
+
+    .right .address {
+        width: 95%;
+        margin: auto;
+    }
+
+    section.contact .contact-social-links {
+        padding-left: 0;
+    }
+}
+
+@media(max-width:810px) {
+    .right .address .inner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .right .address .inner h2 {
+        width: fit-content;
+        margin: auto;
+        margin-bottom: 1rem;
+        font-size: 31px;
+        padding-right: 1px;
+    }
+
+    .right .address .inner p {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:765px) {
+    .right .address .google-review .google-review-inner {
+        grid-template-columns: 1fr;
+    }
+
+    section.form .wrapper .right img{
+        width: 98vw;
+    }
+
+    .google-review-inner .inner-left {
+        margin: 0;
+        margin-bottom: 2rem;
+    }
+    .right .address .google-review .left{
+        margin: 0;
+    }
+
+    .google-review .google-review-inner h2 {
+        margin: auto;
+    }
+
+    .right .address .google-review .right p {
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        width: fit-content;
+        font-size: 20px;
+        padding: 7px 65px;
+    }
+}
+
+@media(max-width:725px){
+    section.contact .contact-social-links{
+        grid-template-columns: 1fr;
+    }
+} 
+
+@media(max-width:686px){
+    section.form .wrapper .left p{
+        font-size: 20px;
+    }
+    section.form .wrapper .left p:after {
+        left: 205px;
+        margin: 0;
+    }
+    
+}
+
+@media(max-width:580px){
+    .right .address .google-review .right p{
+        padding: 7px 10px;
+    }
+}
+
+@media(max-width:560px){
+    section.form .wrapper .left p{
+        font-size: 15px;
+    }
+    section.form .wrapper .left p:after{
+        left: 144px;
+    }
+}
+
+@media(max-width:540px){
+    .map-below .right .contact{
+        flex-direction: column;
+    }
+    section.contact .contact-mid .right{
+        flex-direction: column;
+    }
+}
+
+@media(max-width:450px){
+    .right .address .google-review .right p{
+        font-size: 16px;
+    }
+    .right .address .inner p{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:410px){
+    section.form .wrapper .left h1{
+        font-size: 2rem;
+    }
+    .right .address .google-review .right p{
+        font-size: 15px;
+    }
+    section.form .wrapper .left p:after {
+        left: 136px;
     }
 }

@@ -29,6 +29,7 @@ export default function Header() {
             {/* <!-- =================Header====================== --> */}
             <header id="header" className="header">
                 <div className="container">
+                <input type="checkbox" name="" id="check"></input>
                     <div className="logo-container">
                         <img src="/assets/img/mainLogo.png" alt='medsys' />
                     </div>
