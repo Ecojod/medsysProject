@@ -420,7 +420,7 @@ export default function Header() {
                                     <div className="search-box">
                                         <input className="search-txt" type="search" name="" placeholder="Search" />
                                         <Link className="search-btn" to="/">
-                                            <i className="fas fa-search" style={{ fontSize: " 20px" }}></i>
+                                            <i className="fas fa-search" style={{ fontSize: " 16px" }}></i>
                                         </Link>
                                     </div>
                                     
